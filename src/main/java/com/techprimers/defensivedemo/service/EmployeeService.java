@@ -46,9 +46,9 @@ public class EmployeeService {
     }
 
     public Employee update(Integer employeeId, Employee employee) {
-        if (employeeId != employee.getEmployeeId()) {
-            throw new EmployeeValidationException("Mismatch in EmployeeId");
-        }
+        //if (employeeId != employee.getEmployeeId()) {
+        //    throw new EmployeeValidationException("Mismatch in EmployeeId");
+       // }
         Optional<Employee> employeeOptional = repository.findById(employeeId);
         if (employeeOptional.isPresent()) {
             return repository.save(employee);
