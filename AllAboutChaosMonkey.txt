@@ -1,0 +1,9 @@
+Step1: Download Any IDE (IDE used in demo is IntelliJ)
+https://www.jetbrains.com/idea/download/?section=windows
+Step2: Open IDE and import project from 
+Demo App and config download: 
+https://github.com/sharvgupta/defensive-demo
+https://github.com/TechPrimers/defensive-demo
+Step3: Play with configurations and understand.
+Endpoints:
+https://cedricmoulard.com/spring-boot-reference-guide
